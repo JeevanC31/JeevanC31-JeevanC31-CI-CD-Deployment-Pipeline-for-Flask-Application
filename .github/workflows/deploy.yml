@@ -23,7 +23,7 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker tag flask-app:latest yourdockerhubusername/flask-app:latest
-        docker push yourdockerhubusername/flask-app:latest
+        docker tag flask-app:latest jeevanc31/flask-app:latest
+        docker push jeevanc31/flask-app:latest
 
    
